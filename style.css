@@ -1,0 +1,356 @@
+@font-face {
+  font-family: BlenderPro-Bold;
+  src: url(BlenderPro-Bold.ttf);
+}
+@font-face {
+  font-family: Trade Gothic;
+  src: url(Trade\ Gothic\ LT\ Condensed\ No.\ 18.ttf);
+}
+@import url(//db.onlinewebfonts.com/c/1b96a8adcad08f7aa8edb5b1253205cd?family=HP+Simplified+Light);
+body{
+  margin: 0 0 0 0;
+  height: 3000px;
+}
+.background-image{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: inline;
+}
+.header{
+  top: 0;  
+  height: 145px;width: 1329px;
+  margin-left: 10px;
+  margin-right: 10px;  
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  position: absolute;
+  font-family: BlenderPro-Bold;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+.left-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   
+  width: 881.9px;
+  margin-left:30px;    
+}
+.right-section{    
+  display: flex;
+  align-items: center;    
+  width: 298px;
+  margin-right: 30px;  
+}
+.icons{
+  margin-right: 8px;
+  cursor: pointer;
+}
+.logo{
+  width: 161.06px;
+ margin-left: 38px;
+ cursor: pointer;
+}
+
+.second-session{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 240px; 
+  margin-left: 40px; 
+ 
+  width: 1266px; height: 250px;
+  align-items: center;  
+}
+.div-firstline{
+  display: flex;
+  align-items: center;  
+  height: 25.91px; margin-top: 10px;
+  margin-bottom: 6px;
+}
+.firstline{
+  font-family: BlenderPro-Bold;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+.div-mainline{
+  display: flex;
+  align-items: center;  
+  height: 85px;
+  margin-bottom: 21.250px;
+}
+.mainline{
+  font-family: BlenderPro-Bold;
+  color: white;
+  font-weight: 800;
+  font-size: 85px;
+}
+.div-buttons{
+  display: flex;  
+  width: 585px;
+}
+.buttons{
+  height: 75px;
+  font-family: BlenderPro-Bold;
+  background-color: rgb(255, 102, 0);
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 40px;
+  border: none;
+}
+.buttons:hover{
+  border-style: solid;
+  border-color: rgb(255, 102, 0);
+  border-width: 1px;
+  background-color: transparent;
+  color: rgb(255, 102, 0);
+  cursor: pointer;
+}
+.third-session{     
+  margin-left: 30px;  margin-top: 78px;
+  width: 1289px; height: 2993px;    
+}
+.brand-new{  
+  width: 966.75px; height:255px;
+  margin-left: 25%; 
+  
+}
+.para-style{
+  font-family: BlenderPro-Bold;
+  font-weight: 800;
+  font-size: 87.5px;
+  line-height: 1px;
+}
+.buttonseg{
+  display: flex;  
+  width: 966.75px; height:155px;
+  margin-left: 25%; 
+}
+.buttons-I{
+  height: 75px; width: 225.63px;
+  font-family: BlenderPro-Bold;  
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 40px;
+  border: solid;
+  border-width: 1px;
+  margin-right: 26px;
+}
+.buttons-I:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.buttons-II{
+  height: 75px; width: 270.11px;
+  font-family: BlenderPro-Bold;  
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 40px;
+  border: solid;
+  border-width: 1px;
+}
+.buttons-II:hover{
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  cursor: pointer;
+}
+.div-photo1{   
+  width: 1289px;
+  height: 611.02px;
+}
+.div-first-row{   
+  width: 1289px;
+  height: 471.17px;
+  display: grid;   
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+.div-row-pic{
+  width: 429.66px;height: 471.17px;  
+}
+.photo-seg{
+  width: 409.66px;
+  padding-left: 10px; 
+  cursor: pointer; 
+}
+.hash-title{
+  font-family: BlenderPro-Bold;
+  font-size: 20px;  
+  margin-left: 10px;
+  cursor: pointer;
+}
+.photo-title{
+  line-height: 1px;
+  font-family: BlenderPro-Bold;
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 10px;margin-top: 0;
+  cursor: pointer;
+}
+.div-second-row{   
+  width: 1289px;
+  height: 810.42px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr ;  
+}
+.div-row-pic2{
+  width: 406.81px;
+  height: 730.42px;  
+}
+.photo-seg2{
+  width: 386.81px;
+  padding-left: 10px;  
+  cursor: pointer;
+}
+.dates{
+  font-family: BlenderPro-Bold;
+  font-size: 20px;  
+  margin-left: 10px;
+}
+.heading{
+  font-family: BlenderPro-Bold;
+  font-size: 36px;  line-height: 35px;
+  margin-left: 10px;margin-top: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.heading:hover{
+  color: rgb(255, 102, 0);
+}
+.content{
+  font-family: HP Simplified Light;
+  font-size: 20px; 
+  line-height: 32px;
+  margin-left: 10px; 
+}
+.div-third-row{
+ 
+  width: 1289px;
+  height: 536px;
+  display: grid; grid-template-columns: 1fr 1fr;  
+}
+.div-row-pic3{
+  margin-left: 10px;
+  width: 634.5px;
+  height: 476px;  
+  display: grid;grid-template-columns: 1fr 1fr;
+}
+.photo-seg3{
+  width: 317.25px;height: 238px;
+}
+.div-connect{
+  background-color: black;
+  width: 634.5px;
+  height: 476px;
+  display: flex;  
+}
+.div-inbox{
+  display: flex; 
+  align-items: center;    
+  height: 296px; width: 454.5px;  
+  margin: 90px;  flex-direction: column;
+}
+.in-insta{
+  font-family: BlenderPro-Bold;  
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin: 5px;
+}
+.underscore{
+  color: white;font-family: Trade Gothic;
+  font-weight: bold;
+  margin: 0;padding: 0;line-height: 1px;
+}
+.get-daily{
+  color: white;
+  font-size: 20px;
+  font-family: Trade Gothic;font-weight: 400;
+  margin-top: 30px;
+}
+.folow-button{
+  margin-top: 28.35px;
+  width: 184.76px;
+  height: 71.36px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  background-color: black;
+  color: white;
+  font-family: Trade Gothic;font-weight: 700;
+  font-size: 16.2px;
+}
+.folow-button:hover{
+  border-color: rgb(255, 102, 0);
+  color: rgb(255, 102, 0);
+  cursor: pointer;
+}
+.div-4-row{
+  width: 1289px;height: 155px;   
+}
+.div-join{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1269px;height: 75px; 
+  margin-left: 10px;
+  align-items: center;  
+}
+.join-line{
+  font-family: BlenderPro-Bold;  
+  font-weight: 700;
+  font-size: 23.4px;
+  padding-right: 20px;
+}
+.sign-button{
+  background-color: white;
+  width: 166.17px;height: 75px;
+  color: rgb(255, 102, 0);
+  border-style: solid;
+  border-color: rgb(255, 102, 0);
+  border-width: 1px;
+  font-family: BlenderPro-Bold;  
+  font-weight: 700;
+  font-size: 20px;
+}
+.sign-button:hover{
+  background-color: rgb(255, 102, 0);
+  color: white;
+  width: 196.17px;
+  cursor: pointer;
+}
+.fourth-session{
+  width: 1349px;height: 242.75px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(189, 189, 189);  
+  margin-left: 0px;
+  display: flex;justify-content: center;
+  align-content: center;
+}
+.div-longpara{
+  width: 790px;
+  height: 228.25px;   
+}
+.long-para{
+  padding: 38px;
+  color: rgb(189, 189, 189);
+  font-size: 12.5px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 22px;
+  font-family: Arial;
+}
