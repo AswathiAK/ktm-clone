@@ -248,6 +248,7 @@ body{
 }
 .photo-seg3{
   width: 317.25px;height: 238px;
+  object-fit: cover;display: inline;
 }
 .div-connect{
   background-color: black;
